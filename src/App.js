@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// importing Navbar and Banner from components folder
+import Navbar from "./components/Navbar";
+import Banner from "./components/Banner";
 
+const App = () => (
+    //compiling the components in app
+  <>
+    <Navbar />;
+    <Banner />
+  </>
+);
 export default App;

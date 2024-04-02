@@ -1,0 +1,30 @@
+.upcoming-events-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .upcoming-events-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .upcoming-events-heading {
+    color: #776767;
+    font-size: 20px;
+    font-family: "Inter";
+    align-self: flex-start;
+  }
+  
+  .upcoming-events-list-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    list-style-type: none;
+    padding: 10px;
+  }
+  

@@ -1,0 +1,147 @@
+.nav-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav-top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+  }
+  
+  .website-logo-heading {
+    color: #cf2d2d;
+    font-family: "Inter";
+  }
+  
+  .location-icon {
+    color: #b0babf;
+  }
+  
+  .burger-icon {
+    color: #ffffff;
+    margin-right: 5px;
+  }
+  
+  .location-button {
+    border-width: 0px;
+    background-color: transparent;
+    color: #57656b;
+    font-family: "Inter";
+    font-size: 15px;
+  }
+  
+  .categories-button {
+    background-color: #000000;
+    font-family: "Inter";
+    border-radius: 5px;
+    border-width: 0px;
+    color: #ffffff;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  .categories-input-bar-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-bottom-container {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+  }
+  
+  .list-container {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-self: center;
+    padding-left: 280px;
+  }
+  
+  .list-item {
+    color: #57656b;
+    margin-left: 20px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .search-bar {
+    border-width: 0px;
+    outline: none;
+    width: 500px;
+    height: 25px;
+    color: #57656b;
+  }
+  
+  .input-bar-container {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    width: 500px;
+    height: 30px;
+    box-shadow: 1px 1px 1px 1px #b0babf;
+    margin-left: 8px;
+    padding-right: 5px;
+    color: #8f9ba1;
+  }
+  
+  .favorites-button {
+    background-color: transparent;
+    border-width: 0px;
+    color: #57656b;
+    font-size: 15px;
+    font-family: "Inter";
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .favorite-icon {
+    margin-right: 5px;
+  }
+  
+  .sign-in-button {
+    background-color: transparent;
+    border: 1px solid #8f9ba1;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color: #57656b;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 767px) {
+    .categories-input-bar-container {
+      display: none;
+    }
+    .favorite-sign-in-container {
+      display: none;
+    }
+    .list-container {
+      padding: 0px;
+      overflow-x: auto;
+    }
+    .nav-top-container {
+      padding: 10px;
+    }
+    .nav-bottom-container {
+      padding: 10px;
+    }
+    .mobile-icon-container {
+      color: #8f9ba1;
+      font-size: 25px;
+      margin: 10px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .mobile-icon-container {
+      display: none;
+    }
+  }
+  

@@ -1,0 +1,75 @@
+.banner-bg-container {
+    background-image: url(https://res.cloudinary.com/dlubbarfa/image/upload/v1711810083/Banner_uv5mu7.svg);
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .banner-heading {
+    color: #ffffff;
+    font-size: 50px;
+    font-family: "Inter";
+  }
+  
+  .banner-description {
+    color: #ffffff;
+    font-family: "Inter";
+    font-size: 12px;
+  }
+  
+  .recommended-shows-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .recommended-shows-heading-icon-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .recommended-shows-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .recommended-shows-heading {
+    color: #776767;
+    font-size: 20px;
+    font-family: "Inter";
+    align-self: flex-start;
+  }
+  
+  .arrow-icon {
+    color: #776767;
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  
+  .see-all {
+    color: #776767;
+    font-family: "Inter";
+    text-decoration: underline;
+    align-self: flex-end;
+  }
+  
+  .recommended-events-list-container {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  
+  @media (max-width: 767px) {
+    .banner-heading {
+      font-size: 25px;
+    }
+  }
+  
